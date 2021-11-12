@@ -5,9 +5,7 @@ import projects from "./projects";
 
 export default function CustomDataGrid() {
   const renderProjectsCellTemplate = 
-    (row) => {
-      console.log('row :>> ', row);
-      return (
+    (row) => (
       <TagBox
         dataSource={projects}
         displayExpr="projectName"
@@ -18,8 +16,7 @@ export default function CustomDataGrid() {
         stylingMode="underlined"
         className="custom-tag-box"
       />
-    )
-  };
+    );
 
   const renderProjectsEditCellTemplate = 
     (row) => (
@@ -52,10 +49,12 @@ export default function CustomDataGrid() {
         }}
         cellTemplate="projectsCellTemplate"
         editCellTemplate="projectsEditCellTemplate"
-        validationRules={[
-          <RequiredRule />,
-        ]}
-      />
+        calculateFilterExpression={function (filterValue, selectedFilterOperation, target) {
+          return [this.dataField, "contains", filterValue];
+        }}
+      >
+        <RequiredRule />,
+      </Column>
       <Template
         name={"projectsCellTemplate"}
         render={renderProjectsCellTemplate}

@@ -4,31 +4,31 @@ const projects = [
     projectName: "Andersson Ltd",
   },
   {
-    projectId: 1,
+    projectId: 2,
     projectName: "Barco Ltd",
   },
   {
-    projectId: 1,
+    projectId: 3,
     projectName: "Clepster Ltd",
   },
   {
-    projectId: 1,
+    projectId: 4,
     projectName: "Dust Ltd",
   },
   {
-    projectId: 1,
+    projectId: 5,
     projectName: "Electrikz Ltd",
   },
   {
-    projectId: 1,
+    projectId: 6,
     projectName: "Forester Ltd",
   },
   {
-    projectId: 1,
+    projectId: 7,
     projectName: "Gargan Ltd",
   },
   {
-    projectId: 1,
+    projectId: 8,
     projectName: "Houz Ltd",
   },
 ];

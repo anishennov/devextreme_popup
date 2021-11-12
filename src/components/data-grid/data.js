@@ -39,7 +39,7 @@ const employees = [{
     Address: '4 Westmoreland Pl.',
     State: 'Arkansas',
     City: 'Bentonville',
-    ProjectId: [1, 2, 3, 4, 5, 6, 7, 8]
+    ProjectId: [1, 3, 4, 5, 6, 7, 8]
   }, {
     ID: 4,
     FirstName: 'Greta',
@@ -53,7 +53,7 @@ const employees = [{
     Address: '1700 S Grandview Dr.',
     State: 'Georgia',
     City: 'Atlanta',
-    ProjectId: [1, 2, 3, 4, 5, 6, 7, 8]
+    ProjectId: [1, 3, 4, 5, 6, 7, 8]
   }, {
     ID: 5,
     FirstName: 'Brett',
@@ -67,7 +67,7 @@ const employees = [{
     Address: '1120 Old Mill Rd.',
     State: 'Idaho',
     City: 'Boise',
-    ProjectId: [1, 2, 3, 4, 5, 6, 7, 8]
+    ProjectId: [1, 3, 4, 5, 6, 7, 8]
   }, {
     ID: 6,
     FirstName: 'Sandra',
@@ -109,7 +109,7 @@ const employees = [{
     Address: '2211 Bonita Dr.',
     State: 'Arkansas',
     City: 'Little Rock',
-    ProjectId: [1, 2, 3, 4, 5, 6, 7]
+    ProjectId: [1, 3, 4, 5, 6, 7]
   }, {
     ID: 9,
     FirstName: 'Kent',
@@ -137,7 +137,7 @@ const employees = [{
     Address: '7776 Torreyson Dr',
     State: 'California',
     City: 'San Jose',
-    ProjectId: [2]
+    ProjectId: [3]
 }];
 
 export default employees;
